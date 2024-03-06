@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.349f9caa.css",
-    "main.js": "/static/js/main.64bf8002.js",
+    "main.js": "/static/js/main.bc29a0c9.js",
     "static/js/149.8dd002ed.chunk.js": "/static/js/149.8dd002ed.chunk.js",
     "static/js/321.c431469a.chunk.js": "/static/js/321.c431469a.chunk.js",
     "static/js/132.9b357d17.chunk.js": "/static/js/132.9b357d17.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/TEDxLogo.svg": "/static/media/TEDxLogo.4b1aa5fc4c4465405545fee682897b7a.svg",
     "index.html": "/index.html",
     "main.349f9caa.css.map": "/static/css/main.349f9caa.css.map",
-    "main.64bf8002.js.map": "/static/js/main.64bf8002.js.map",
+    "main.bc29a0c9.js.map": "/static/js/main.bc29a0c9.js.map",
     "149.8dd002ed.chunk.js.map": "/static/js/149.8dd002ed.chunk.js.map",
     "321.c431469a.chunk.js.map": "/static/js/321.c431469a.chunk.js.map",
     "132.9b357d17.chunk.js.map": "/static/js/132.9b357d17.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.349f9caa.css",
-    "static/js/main.64bf8002.js"
+    "static/js/main.bc29a0c9.js"
   ]
 }
