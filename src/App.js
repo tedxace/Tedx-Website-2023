@@ -5,7 +5,6 @@ import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
 
 const Contact = lazy(() => import("./components/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
-const Navbar = lazy(() => import("./components/Navbar"));
 const SpeakerContent = lazy(() => import("./components/SpeakerContent"));
 const Sponsors = lazy(() => import("./components/Sponsors"));
 const Home = lazy(() => import("./pages/Home"));
@@ -17,11 +16,8 @@ function App() {
   const { sponsors } = useSponsorData();
   return (
     <div className="overflow-x-hidden">
-      <Router>
+      <Router basename="/">
         <Navbar2 />
-        {/* <header className="min-h-[10vh]">
-          <Navbar />
-        </header> */}
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/team" element={<Team />} />

@@ -99,7 +99,7 @@ const Navbar2 = () => {
 
   return (
     <>
-    <div className="h-28 " />
+      <div className="h-28 " />
       <header
         className={`h-28 px-10 md:px-16 transition-all duration-500 fixed top-0 w-full z-[1000] ${
           fixed ? "scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
@@ -232,9 +232,7 @@ const Navbar2 = () => {
       <div
         className={`
         transition-all duration-500
-        ${
-          fixed ? "bg-[#111111]" : "bg-tedx-dark"
-        } 
+        ${fixed ? "bg-[#111111]" : "bg-tedx-dark"} 
         ${isOpen ? "h-fit top-28" : "z-0 h-fit -top-[100%]"}
         fixed z-[900] pb-8 inset-0 w-full px-11 overflow-hidden `}
       >
